@@ -1,0 +1,36 @@
+.posture-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  /* height: 500px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 2rem 5rem;
+}
+
+.posture-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(122, 231, 251);
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.posture-icon-wrapper {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posture-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
